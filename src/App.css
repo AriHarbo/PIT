@@ -111,10 +111,11 @@ body, html {
   background-color: #333437;
   border-radius: 10px;
   text-decoration: none;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s;
 }
 .enlaceYT:hover{
   transform: scale(1.01);
+  background-color: #4a4b4e;
 }
 .enlaceYT h3{
   font-size: .8rem;
