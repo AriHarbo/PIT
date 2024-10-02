@@ -289,3 +289,27 @@ body, html {
   list-style: none; /* Para quitar el punto o marcador del li */
   margin-bottom: 10px; /* Espaciado debajo del encabezado */
 }
+
+.contenedorYT {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+}
+.ultimoVideo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoCanal{
+  display: flex;
+  flex-direction: column;
+  width: 50%;  
+}
+.infoCanal h1{
+  font-size: 3rem;
+}
+.infoCanal p{
+  font-size: 1.5rem;
+  text-indent: 4rem;
+}
+/*border: 1px, solid, whitesmoke;*/
