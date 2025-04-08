@@ -6,7 +6,7 @@ const ContenedorYT = () => {
     const [videoID, setVideoID] = useState('');
 
   useEffect(()=> {
-    const apiKey = 'AIzaSyA8DCuLkAnOgAcVmCMyzbe58hNkNJW_dX8';
+    const apiKey = '';
     const channelID =  'UCHIwQiZhIn6fm5b_IilqBbQ' ///'UC9HvIXXe9x-ohW9oQ02HwrQ'(id del canal de pit);
     const url = `https://www.googleapis.com/youtube/v3/search?part=id,snippet&channelId=${channelID}&order=date&maxResults=1&key=${apiKey}`;
 
